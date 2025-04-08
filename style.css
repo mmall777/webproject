@@ -1,0 +1,82 @@
+/* bangers-regular - latin */
+ @font-face {
+    font-display: swap; 
+    font-family: 'Bangers';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/bangers-v24-latin-regular.woff2') format('woff2'); 
+  } 
+
+
+  .fonty {
+    font-family: 'Bangers';
+    font-size: 30px;
+    src: url('./fonts/bangers-v24-latin-regular.woff2') format('woff2')
+} 
+
+body {
+    background-color:dimgray;
+}
+
+p {
+    color:bisque;
+    font-size: large; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,ul,ol  {
+    color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+hr {
+    border:none;
+    height: 3px;
+    background-color: bisque;
+    margin: auto
+}
+
+ul,ol {
+    line-height: -15px;
+}
+
+/* unvisited link */
+a:link {
+    color: chartreuse;
+    
+}
+/* visited link */
+a:visited {
+    color:aqua;
+}
+
+/* hover color */
+a:hover {
+    color:cornsilk;
+}
+
+img {
+    margin: 25px;
+    
+}
+
+.mid_text {
+    align-items: center;
+}
+
+.bday_color {
+    background-color: darkred;
+}
+
+.custom-padding {
+    padding-left: 3rem;
+}
+
+.custom-shadow {
+    box-shadow: 6px 4px 6px rgba(0,0,0,0.6) !important;
+}
+
+
+  
